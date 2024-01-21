@@ -1,0 +1,449 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #ffffff;
+    color: black;
+    font-family: Poppins, sans-serif;
+    text-align: left
+}
+
+header {
+
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    padding: 0 20px;
+    position: fixed;
+    z-index: 9999999999999999;
+    top: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.titulo-header {
+
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+
+
+}
+
+.whatsapp {
+
+    color: white;
+    align-items: center;
+    font-size: 60px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.whatsapp:hover {
+
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+
+#logo1 {
+
+    width: 130px;
+}
+
+
+
+main {
+    padding-top: 10vh;
+}
+
+
+
+button {
+
+    background-color: black;
+    color: #ffffff;
+    height: 60px;
+    width: 36%;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#redondo {
+
+
+    margin-bottom: 20px;
+    transform: scale(1.3);
+
+}
+
+#retangulo {
+
+    width: 70%;
+
+}
+
+.paisagem {
+
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.topicos {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    font-size: 25px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+
+}
+
+.topicos h2 {
+
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+li {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caixa1 {
+
+
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.caixa1 p {
+
+    width: 60%;
+}
+
+.principal {
+
+    display: flex;
+
+}
+
+section {
+
+
+    margin: 5vh 0;
+}
+
+.video {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+hr {
+
+    width: 30%;
+    margin: 0 auto;
+
+
+}
+
+.corzinha {
+
+    background-color: black;
+    color: #ffffff;
+    padding: 15px;
+}
+
+
+.oqvc {
+
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.topicos2 {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    font-size: 18px;
+    margin-bottom: 40px;
+
+}
+
+i {
+
+    font-size: 70px;
+    margin-bottom: 25px;
+
+
+}
+
+.caixa2 {
+
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+.quem {
+
+    text-align: center;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.botao2 {
+
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    height: 100px;
+    width: 30%;
+    font-size: 50px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
+
+#rafael {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cunha {
+
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.caixa3 {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.prazer {
+
+    text-align: center;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imgpaisagens {
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgpaisagens img:hover {
+
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.fotos-suas {
+
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+}
+
+.suas-fotos {
+
+    background-color: #000000;
+    padding: 50px;
+}
+
+form {
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: #000000 solid 10px;
+}
+
+form input {
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 3px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    border: #000000 solid 5px;
+
+
+}
+
+.form-container {
+
+    color: #000000;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.ultimo-botao {
+
+    height: 60px;
+    width: 36%;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: #000000 solid 10px;
+
+}
+
+button:hover {
+
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.explicaçao {
+
+    font-size: 15px;
+
+}
+
+footer {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    align-items: center;
+    cursor: pointer;
+
+
+
+}
+
+
+.redes {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10%;
+    height: 100%;
+    cursor: pointer;
+
+}
+
+
+
+.redes i {
+
+    margin: 0;
+}
+
+.icon-footer {
+
+    font-size: 50px;
+
+
+}
+
+
+/* 
+
+ฅ^.ᆺ.^ฅ
+
+*/
